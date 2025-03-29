@@ -67,6 +67,6 @@ if __name__ == '__main__':
     download_images(friends_list)
 
     
-    user = itchat.search_friends(name=u'二胖')[0]
+    user = itchat.search_friends(name=u'Cyrus.')[0]
     user.send(u'hello,这是一条来自机器人的消息')
     itchat.run()
